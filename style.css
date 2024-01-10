@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #b2e8c4;
+    /* overflow-x: hidden; */
+    min-height: 100vh;
+}
+header{
+    position : absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    pointer-events: none;
+    margin-right: 270px;
+
+}
+.navigation a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 700;
+    font-size: 20px;
+    
+
+}
+.navigation a:hover, 
+.navigation a.active{
+    background-color:  rgb(18, 150, 106);
+    color: white;
+}
+
+.mid{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+#clima{
+    position: fixed;
+    font-size: 4em;
+    color : #000;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0,.4);
+    margin-top: 500px ;
+}
+.mid img{
+    position : absolute;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    pointer-events: none;
+    
+
+}
+
+.sec h2{
+    font-size: 3em;
+    color: #000;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+.sec p{
+    font-size: 1em;
+    color: black;
+    font-weight: 300;
+    
+}
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.sec {
+    position: relative;
+    background: #73b634;
+    padding: 10px;
+    border-top: #fff;
+    margin-top: 270px;
+}
+
+#wheat{
+    opacity: 0.5;
+}
+.sec p{
+    font-size: 1.5em;
+    text-align: justify;
+}
+.sec h3{
+    font-size: 3em;
+    text-align: center;
+}
+/*.container2{
+    background-image: url("halo.png");
+     border-radius: 10px;
+}
