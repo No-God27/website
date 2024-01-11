@@ -109,7 +109,16 @@ header{
     font-size: 3em;
     text-align: center;
 }
-/* .container2{
-    background-image: url("halo.png");
+.container2{
+    
+  background-color:rgb(137, 245, 149);
     border-radius: 10px;
-} */
+    padding :20px;
+    margin-top: 50px;
+    
+}
+
+.container2:hover{
+    background-color:white;
+    size: 2em;
+}
