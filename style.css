@@ -55,7 +55,7 @@ header{
     height: 80vh;
 }
 #clima{
-    position: fixed;
+    position: absolute;
     font-size: 4em;
     color : #000;
     text-shadow: 2px 2px 4px rgb(0, 0, 0,.4);
@@ -109,10 +109,16 @@ header{
     text-align: center;
 }
 .container2{
-    background: url('uu.png') center/cover;
-    border-radius: 10px; 
-    padding :20px;
-    margin-top: 50px;
+        background: url('uu.png');
+        position: relative;
+        width: 1300px;
+        height: 450px;
+        background-color: #ffffff;
+        border: 1px solid #ccc; 
+        padding: 0px;
+        margin: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
     
     
 }
