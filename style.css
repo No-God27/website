@@ -109,24 +109,38 @@ header{
     text-align: center;
 }
 .container2{
-    
-  background-color: #34b639;
-    border-radius: 10px;
+    background: url('uu.png') center/cover;
+    border-radius: 10px; 
     padding :20px;
     margin-top: 50px;
     
+    
 }
 
-.container2:hover{
-    background-color:white;
-    size: 2em;
+.container2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.container a:hover,
+.conatainer a.hoover{
+    background-color:  rgb(18, 150, 106);
+    color: white;
 }
 
 .container3{
     background-color: pink;
-    font-size: 3em;
+    font-size: 2em;
+    margin-top: 50px;
 }
 .container4{
     background-color: palevioletred;
-    font-size: 3em;
+    font-size: 2em;
+    margin-top: 50px;
 }
+
