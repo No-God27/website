@@ -141,6 +141,8 @@ nav a.active
     margin: 0 10px;
     font-weight: 700;
     font-size: 20px;
+    text-align: center;
+    
 
 }
 .container a:hover,
@@ -166,3 +168,38 @@ nav a.active
     margin-top: 50px;
 }
 
+.button-container {
+    display: flex;  
+    justify-content: flex-end; 
+    margin-right: 35px;
+    
+}
+
+.button-container a {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.button-container button {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    background-color:rgba(83, 173, 75, 0.5);
+    color: #ffffff; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    border-radius: 10px; 
+}
+
+.button-container button:hover {
+    background-color: #73b634; 
+    color: #000000; 
+}
+.talajhar{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 30px;
+}
