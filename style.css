@@ -15,41 +15,47 @@ body{
     /* overflow-x: hidden; */
     min-height: 100vh;
 }
-header{
+header nav{
     position : fixed;
     top: 0;
-    left: 0;
     width: 100%;
     padding: 20px 120px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     z-index: 100;
-    background: #11141a;
+    background: black;
+    text-decoration: none;
 }
 .logo{
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-    pointer-events: none;
-    margin-right: 270px; 
-
-}
-/* .navigation a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 6px 15px;
-    border-radius: 20px;
-    margin: 0 10px;
-    font-weight: 700;
-    font-size: 20px; 
+    top : 0;
+    left: 0;
+    position:fixed; 
+    display: flex; 
+    margin-right: 100px;
     
 
-}*/
-/* .navigation a:hover, 
-.navigation a.active{
-    background-color:  rgb(18, 150, 106);
-    color: white;
-} */
+}
+.logo:hover{
+    background-color:black;
+}
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+    transition: 0.4s;
+    color: #86eb34;
+ }
+    
+
+nav a:hover,
+nav a.active
+{background-color : #86eb34;
+ border-radius: 10px;
+ padding: 3px 8px;
+ color:white;
+} 
 
 .mid{
     position: relative;
@@ -74,13 +80,13 @@ header{
 
 }
 
-.sec h2{
+#sec h2{
     font-size: 3em;
     color: #000;
     margin-bottom: 10px;
     margin-top: 100px;
 }
-.sec p{
+#sec p{
     font-size: 1em;
     color: black;
     font-weight: 300;
@@ -93,7 +99,7 @@ header{
     margin: 10px;
 }
 
-.sec {
+#sec {
     position: relative;
     background: #73b634;
     padding: 10px;
@@ -104,11 +110,11 @@ header{
 #wheat{
     opacity: 0.5;
 }
-.sec p{
+#sec p{
     font-size: 1.5em;
     text-align: justify;
 }
-.sec h3{
+#sec h3{
     font-size: 3em;
     text-align: center;
 }
@@ -159,3 +165,4 @@ header{
     font-size: 2em;
     margin-top: 50px;
 }
+
