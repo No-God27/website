@@ -119,7 +119,7 @@ nav a.active
     text-align: center;
 }
 .container2{
-        background: url('uu.png');
+        background: url('bggpng.png');
         position: relative;
         width: 1300px;
         height: 450px;
@@ -129,6 +129,7 @@ nav a.active
         margin: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
+        
     
     
 }
@@ -184,13 +185,14 @@ nav a.active
     width: 100%;
     max-width: 200px;
     padding: 10px;
-    font-size: 16px;
-    background-color:rgba(83, 173, 75, 0.5);
+    font-size: 20px;
+    background-color:rgba(83, 173, 75, 0.9);
     color: #ffffff; 
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease; 
     border-radius: 10px; 
+    margin-bottom: 50px;
 }
 
 .button-container button:hover {
@@ -202,4 +204,10 @@ nav a.active
     margin-top: 50px;
     margin-left: 70px;
     font-size: 30px;
+}
+.container3_1{
+    border-radius: 10px;
+    background-color: white;
+    font-size: 30px;
+    width:80%;
 }
