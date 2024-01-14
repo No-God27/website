@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 
 
 *{
@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
+    
 }
 
 body{
@@ -19,35 +20,36 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 20px 120px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background: #11141a;
 }
 .logo{
-    font-size: 3em;
+    font-size: 25px;
     color: rgb(0, 0, 0);
     pointer-events: none;
-    margin-right: 270px;
+    margin-right: 270px; 
 
 }
-.navigation a {
+/* .navigation a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 6px 15px;
     border-radius: 20px;
     margin: 0 10px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 20px; 
     
 
-}
-.navigation a:hover, 
+}*/
+/* .navigation a:hover, 
 .navigation a.active{
     background-color:  rgb(18, 150, 106);
     color: white;
-}
+} */
 
 .mid{
     position: relative;
@@ -152,3 +154,8 @@ header{
     margin-top: 50px;
 }
 
+.container5{
+    background-color: aliceblue;
+    font-size: 2em;
+    margin-top: 50px;
+}
