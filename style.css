@@ -1,12 +1,15 @@
 
 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 
 *{
     margin : 0;
     padding : 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:sans-serif;
     scroll-behavior: smooth;
+    
     
 }
 
@@ -130,6 +133,7 @@ nav a.active
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         
+        
     
     
 }
@@ -153,10 +157,23 @@ nav a.active
 }
 
 .container3{
-    background-color: pink;
+
     font-size: 2em;
-    margin-top: 50px;
+    margin: 10px;
+    text-align: justify;
+    background-color: rgb(209, 175, 175);
+    width: 99%;
+    border-radius: 10px;
 }
+
+.conatainer3:hover
+{
+    background-color: #73b634;
+    color: rgb(204, 174, 174);
+}
+
+    
+
 .container4{
     background-color: palevioletred;
     font-size: 2em;
