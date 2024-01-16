@@ -270,12 +270,13 @@ nav a.active
     margin-bottom: 20px;
 }
 input,textarea{
-    width = 100%;
+    width : 100%;
     padding:12px;
     border-radius: 8px;
     border:none;
     background-color: #f8f9fa;
     color: #333;
+
 }
 input:focus,
 textarea:focus{
@@ -292,6 +293,7 @@ button {
     border:none;
     cursor: pointer;
     transition: 0.3s ease;
+    margin-top: 10px;
 }
 button:hover{
     background-color: #45a049 ;
