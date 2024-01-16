@@ -155,32 +155,11 @@ nav a.active
     background-color:  rgb(18, 150, 106);
     color: white;
 }
-
-.container3{
-
-    font-size: 2em;
-    margin: 10px;
-    text-align: justify;
-    background-color: rgb(209, 175, 175);
-    width: 99%;
-    border-radius: 10px;
-}
-
-.conatainer3:hover
-{
-    background-color: #73b634;
-    color: rgb(204, 174, 174);
-}
-
-    
-
 .container4{
     background-color: palevioletred;
     font-size: 2em;
     margin-top: 50px;
 }
-
-
 
 .button-container {
     display: flex;  
@@ -235,13 +214,18 @@ nav a.active
 }
 
 .container5{
-    min-height:100vh;
-    background-color: #e8f0fe;
+    min-height:90vh;
+    background-color: rgba(0, 0, 0, 0.2);
     padding:50px;
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
+    
+    
 
+}
+.container5-1{
+    background: url("contact3.jpg");
 }
 .container5 h2{
     font-size: 36px;
