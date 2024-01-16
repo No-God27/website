@@ -37,3 +37,11 @@ window.onscroll = () =>
     };
   })
 };
+
+function openContactDialog() {
+  document.getElementById("contactOverlay").style.display = "flex";
+}
+
+function closeContactDialog() {
+  document.getElementById("contactOverlay").style.display = "none";
+};
