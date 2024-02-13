@@ -7,8 +7,7 @@
     <link rel = "stylesheet" href = "style.css">
     <link rel="icon" type="image/x-icon" href="logotop.png">
     <link rel="stylesheet" type = "text/css"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-
+    
 </head>
 <body>
     <header>
@@ -33,11 +32,13 @@
         <div class="box-container"> 
         <h3>Welcome </h3> 
         <br><br><br><br>
-            <p>Introducing our Crop Recommendation System, a cutting-edge solution at the nexus of technology and agriculture. Our platform provides farmers with accurate and data-driven information to enable them to make well-informed crop selection decisions. Personalised crop recommendations are provided by us, utilising a wealth of agricultural data and machine learning to take into account critical environmental aspects such as temperature, rainfall, expected yield, and pesticide availability. Our user-friendly interface and sophisticated algorithms simplify the process of making decisions by offering customised recommendations that maximise production potential while reducing the hazards brought on by erratic environmental circumstances. Come along with us as we explore the future of agriculture by combining technology and tradition to create farming practices that are resilient and sustainable.<br> <br>
+        <section class = "thick">
+           <br> <p>Introducing our Crop Recommendation System, a cutting-edge solution at the nexus of technology and agriculture. Our platform provides farmers with accurate and data-driven information to enable them to make well-informed crop selection decisions. Personalised crop recommendations are provided by us, utilising a wealth of agricultural data and machine learning to take into account critical environmental aspects such as temperature, rainfall, expected yield, and pesticide availability. Our user-friendly interface and sophisticated algorithms simplify the process of making decisions by offering customised recommendations that maximise production potential while reducing the hazards brought on by erratic environmental circumstances. Come along with us as we explore the future of agriculture by combining technology and tradition to create farming practices that are resilient and sustainable.<br> <br>
             
-            With our innovative Crop Recommendation System, you can take a step into the future of agriculture and transform the way farmers make important decisions. Our platform, which seamlessly integrates technology and agronomy, analyses historical data on temperature, rainfall, pesticide use, and crop yields using advanced machine learning algorithms. Personalised recommendations that direct farmers towards the best crop selections given their particular environmental context are the end result. With its intuitive interface and tasteful agricultural design, you can quickly enter important parameters and unleash the potential of data to revolutionise your farming experience. Bid farewell to uncertainty and welcome to the precision farming of the future. Come along on a journey where technology and agriculture coexist peacefully and where every harvest serves as a monument to this union of innovation and tradition.
+            With our innovative Crop Recommendation System, you can take a step into the future of agriculture and transform the way farmers make important decisions. Our platform, which seamlessly integrates technology and agronomy, analyses historical data on temperature, rainfall, pesticide use, and crop yields using advanced machine learning algorithms. Personalised recommendations that direct farmers towards the best crop selections given their particular environmental context are the end result. With its intuitive interface and tasteful agricultural design, you can quickly enter important parameters and unleash the potential of data to revolutionise your farming experience. Bid farewell to uncertainty and welcome to the precision farming of the future. Come along on a journey where technology and agriculture coexist peacefully and where every harvest serves as a monument to this union of innovation and tradition.<br>
         
         </p>
+        </section>
             
         </div>
 
@@ -46,9 +47,9 @@
             <div class = "talajhar">    <h1>PREDICT YOUR CROPS YIELD</h1>   <br>
                 <h6>Predict the crop yield by entering your crop name,average <br>temperature,
                 availability of the pesticides and average <br>rainfall in the area <br></div></h6>
-                <br><br><b><h1>START PREDICTING!!!!!</b></h1>
+                <br><br><b><h1 style = "color:white; font-size:3em;">START PREDICTING!!!!!</b></h1>
             <div class = "button-container" style = "margin-bottom: 100px;">
-            <button> <a href = "#Predict">Predict</a>
+            <button> <a href = "templates/index.html">Predict</a>
             </button>
             </div></div>
 
@@ -59,10 +60,10 @@
 
 <section id = "About" class = "about"><br><br><br><br>
     <h3> About Us</h3>
+    <section class = "batta">
 <p class = "sectionTop">In the core of ClimaCrop, there lies a team of passionate developers, each bringing their special skills to transform agriculture with technology. Let's take a peek into who we are and what drives us:</p>
 
- <section class = "sectionRight">We are a team of students and we share a deep-rooted passion for agriculture and a commitment to addressing the evolving needs of farmers. Our collective mission is to enhance traditional farming practices with innovative technological solutions.
-    The inception of ClimaCrop was driven by the belief that technology could significantly enhance decision-making in agriculture. Our team thrives on pushing the boundaries of innovation.<br>
+ <section class = "sectionRight">We are a team of students and we share a deep-rooted passion for agriculture and a commitment to addressing the evolving needs of farmers. Our collective mission is to enhance traditional farming practices with innovative technological solutions.The inception of ClimaCrop was driven by the belief that technology could significantly enhance decision-making in agriculture. Our team thrives on pushing the boundaries of innovation.<br>
 
  
 
@@ -75,21 +76,8 @@ Our team envisions a future where precision farming becomes the norm. By providi
 ClimaCrop is a testament to the harmonious convergence of innovation and tradition. We believe that the fusion of technology and agricultural wisdom is the key to shaping a sustainable and resilient future for farming.<br><br>
 </section>
 </section>
+</section>
     
-    
-    
-    <section id ="Predict">
-        <div class = "container4">
-            <h1 style = "text-align: center;"> <br><br>Predict<br></h1>
-
-            
-<br>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia voluptate voluptatum natus eos sequi nisi quasi magnam nihil corrupti obcaecati dolore fugiat, beatae cupiditate velit repellat perspiciatis at ex assumenda.
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id perferendis facilis voluptatibus perspiciatis officiis quae delectus adipisci atque voluptates deserunt dicta magni esse rem quisquam neque, magnam tempora sint reprehenderit.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, ipsum cupiditate officia repellendus atque recusandae modi soluta dolor nesciunt qui voluptatibus, exercitationem ipsa repudiandae hic eius dolorem delectus numquam adipisci.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, similique assumenda perferendis totam praesentium in fugit nobis veniam quos asperiores, cupiditate velit! Pariatur quis ipsa accusantium voluptates ut doloremque reprehenderit?
-    </div>
-    </section>
 
     <section id ="Contact" class = "container5-1">
         <div class = "container5">
@@ -98,22 +86,23 @@ ClimaCrop is a testament to the harmonious convergence of innovation and traditi
              <div class="contact-wrapper">
                 <div class="contact-form">
                     <h3>Send us a message</h3>
-                        <form>
+                    
+                        <form id="contactForm" onsubmit="return validateForm()" action="https://script.google.com/macros/s/AKfycbz5dT7ZWVeTU9wwQmzRoY1IckRwZDFCEP82r3l8eCW4yfd4Tr7A3kVreaIIRijsAWbMkA/exec" method="post"></form>
                             
                             <div class="form-group">
-                            <input type="text" name="name" placeholder="Your Name"> 
+                            <input type="text" id = "name" name="name" placeholder="Your Name"> 
                             </div>
                             
                             <div class="form-group">
-                                <input type="text" name="email" placeholder="Your Email"> 
+                                <input type="text" id = "email" name="email" placeholder="Your Email"> 
                             </div>
 
                             <div class="form-group">
-                            <textarea name="message" placeholder = "Your message">
+                            <textarea name="message" id = "message" placeholder = "Your message">
 
                             </textarea>
 
-                            <button type = "submit">Send</button>
+                            <button id = "submit" type = "submit">Send</button>
                             </div>
                         </form>
                 </div>
