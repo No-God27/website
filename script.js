@@ -73,3 +73,31 @@ function validateForm() {
       })
       .catch(error => console.error('Error!', error.message));
 }
+
+function validateForm() {
+  var name = document.getElementById('name').value;
+  var message = document.getElementById('message').value;
+  var email = document.getElementById('email').value;
+
+  var nameRegex = /^[a-zA-Z\s]+$/;
+  var emailRegex = /^[^\s@]+@[^\s@]+.[^\s@]+$/;
+
+  
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzVmMfQlWXTjHzG3CSv08JEcQGT5hD9PGenhsSvmTZm_2zUUyDEAdyMpgec7lsAaWmzxg/exec';
+  const form = document.getElementById('contactForm');
+
+  fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+          if (response.ok) {
+              alert("Thank you! Your form is submitted successfully.");
+              // Redirect to homepage after a delay (e.g., 3 seconds)
+              setTimeout(function() {
+                  window.location.href = 'index.html';
+              }, 30);
+          } else {
+              throw new Error('Network response was not ok.');
+          }
+      })
+      .catch(error => console.error('Error!', error.message));
+}

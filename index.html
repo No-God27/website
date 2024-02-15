@@ -42,18 +42,19 @@
             
         </div>
 
-        <center>
-        <div class = "container2">
-            <div class = "talajhar">    <h1>PREDICT YOUR CROPS YIELD</h1>   <br>
-                <h6>Predict the crop yield by entering your crop name,average <br>temperature,
-                availability of the pesticides and average <br>rainfall in the area <br></div></h6>
-                <br><br><b><h1 style = "color:white; font-size:3em;">START PREDICTING!!!!!</b></h1>
-            <div class = "button-container" style = "margin-bottom: 100px;">
-            <button> <a href = "templates/index.html">Predict</a>
-            </button>
-            </div></div>
-
-        </div> </center>
+<center>
+ <div class = "container2">
+    <div class = "talajhar">    <h1>PREDICT YOUR CROPS YIELD</h1>   <br>
+        <h6>We provide different features for the selection of the optimal crop 
+            to be produced.Checkout some of our features available: <br></div></h6>
+            <div class = "button-container">
+            <button>Predict the yield of a certain Crop</button>
+            <button>Predict the best crop for a climate conditions</button>
+            <button>Predict the best crop for your location</button>
+            </div>
+    </div>
+ </div> 
+</center>
     </section>
 
 
@@ -61,19 +62,21 @@
 <section id = "About" class = "about"><br><br><br><br>
     <h3> About Us</h3>
     <section class = "batta">
-<p class = "sectionTop">In the core of ClimaCrop, there lies a team of passionate developers, each bringing their special skills to transform agriculture with technology. Let's take a peek into who we are and what drives us:</p>
+<p class = "sectionTop">In the core of ClimaCrop, there lies a team of passionate developers, each bringing their special skills to transform agriculture with technology. Let's take a peek into who we are and what drives us:</p><br><br>
 
- <section class = "sectionRight">We are a team of students and we share a deep-rooted passion for agriculture and a commitment to addressing the evolving needs of farmers. Our collective mission is to enhance traditional farming practices with innovative technological solutions.The inception of ClimaCrop was driven by the belief that technology could significantly enhance decision-making in agriculture. Our team thrives on pushing the boundaries of innovation.<br>
-
+ <section class = "sectionRight">
+    <ol>
+        <li>We are a team of students and we share a deep-rooted passion for agriculture and a commitment to addressing the evolving needs of farmers.</li><br>
+        <li>Our collective mission is to enhance traditional farming practices with innovative technological solutions.</li><br>
+        <li>The inception of ClimaCrop was driven by the belief that technology could significantly enhance decision-making in agriculture. Our team thrives on pushing the boundaries of innovation.</li><br>
+        <li>With backgrounds ranging from agriculture to machine learning, we've created a unique synergy that combines traditional agricultural wisdom with cutting-edge data analytics.</li><br>
+        <li>Our team envisions a future where precision farming becomes the norm.</li><br>
+        <li>By providing personalized crop recommendations, we aim to optimize yield potential while mitigating risks associated with environmental fluctuations.</li><br>
+        <li>ClimaCrop is a testament to the harmonious convergence of innovation and tradition.</li><br>
+        <li>We believe that the fusion of technology and agricultural wisdom is the key to shaping a sustainable and resilient future for farming.<br><br></li>
+        
+    </ol>
  
-
- The inception of ClimaCrop was driven by the belief that technology could significantly enhance decision-making in agriculture. Our team thrives on pushing the boundaries of innovation.<br>
-
-With backgrounds ranging from agriculture to machine learning, we've created a unique synergy that combines traditional agricultural wisdom with cutting-edge data analytics.<br>
-
-Our team envisions a future where precision farming becomes the norm. By providing personalized crop recommendations, we aim to optimize yield potential while mitigating risks associated with environmental fluctuations.<br>
-
-ClimaCrop is a testament to the harmonious convergence of innovation and tradition. We believe that the fusion of technology and agricultural wisdom is the key to shaping a sustainable and resilient future for farming.<br><br>
 </section>
 </section>
 </section>
@@ -87,9 +90,11 @@ ClimaCrop is a testament to the harmonious convergence of innovation and traditi
                 <div class="contact-form">
                     <h3>Send us a message</h3>
                     
-                        <form id="contactForm" onsubmit="return validateForm()" action="https://script.google.com/macros/s/AKfycbz5dT7ZWVeTU9wwQmzRoY1IckRwZDFCEP82r3l8eCW4yfd4Tr7A3kVreaIIRijsAWbMkA/exec" method="post"></form>
-                            
-                            <div class="form-group">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        
+                    <input type="hidden"name="access_key"value="076f752a-ae40-429a-94d0-c8837ff26c01">
+
+                        <div class="form-group">
                             <input type="text" id = "name" name="name" placeholder="Your Name"> 
                             </div>
                             
@@ -99,7 +104,7 @@ ClimaCrop is a testament to the harmonious convergence of innovation and traditi
 
                             <div class="form-group">
                             <textarea name="message" id = "message" placeholder = "Your message">
-
+                                
                             </textarea>
 
                             <button id = "submit" type = "submit">Send</button>

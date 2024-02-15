@@ -1,6 +1,5 @@
 
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
 
 
 *{
@@ -164,8 +163,8 @@ nav a.active
 
 .button-container {
     display: flex;  
-    justify-content: flex-end; 
-    margin-right: 35px;
+    justify-content: space-evenly; 
+    margin-top: 10px;
     
 }
 
@@ -175,21 +174,23 @@ nav a.active
 }
 
 .button-container button {
-    width: 100%;
-    max-width: 200px;
-    padding: 10px;
-    font-size: 20px;
-    background-color:rgba(83, 173, 75, 0.9);
-    color: #ffffff; 
-    border: none;
+    width: 250px;
+    padding: 20px;
+    font-size: 25px;
+    background-color: rgba(83, 173, 75, 0.9);
+    color: #ffffff;
+    border: 2px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease; 
-    border-radius: 10px; 
-    margin-bottom: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    margin-top: 40px;
+    border-color: white;
 }
 
 .button-container button:hover {
-    background-color: #73b634; 
+    background-color: rgba(256, 256, 256, 0.8); 
     color: #000000; 
 }
 .talajhar{
@@ -305,10 +306,16 @@ color: #333
 
 .about h3{
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "GRAD" 0;
     
 }
 .sectionTop{
@@ -318,19 +325,22 @@ color: #333
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
-
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+    "GRAD" 0;
 
 }
 .sectionRight{
     text-align: justify;
-    margin-bottom:20px;
     font-size: 25px;
     display: flex;
     justify-content: space-evenly ;
     color:black;
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
 .thick{
@@ -345,5 +355,13 @@ color: #333
     position: relative;
     padding: 40px;
     border-radius: 45px;
-    margin: 20px;
+    
+}
+.sectionRight li{
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "GRAD" 0;
 }
